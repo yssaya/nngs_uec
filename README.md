@@ -1,5 +1,5 @@
 # NNGS for UEC cup
-This is modified nngs(No Name Go Server) for Computer Go tournament, UEC Cup.  
+This is modified nngs(No Name Go Server) for Computer Go tournament, [UEC Cup](http://entcog.c.ooco.jp/entcog/new_uec/en/).  
 Based on nngs-1.1.22.
 
 # Changes
