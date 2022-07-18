@@ -1,16 +1,16 @@
 # NNGS for UEC cup
-This is modified nngs(No Name Go Server) for Computer Go tournament, UEC Cup.
+This is modified nngs(No Name Go Server) for Computer Go tournament, UEC Cup.  
 Based on nngs-1.1.22.
 
 # Changes
-For Japanese rule, 3 kos.
-adminmatch command. (Scince AI-Ryusei 2017)
-Restart game(admin can use load command.)
+For Japanese rule, 3 kos.  
+adminmatch command. (Scince AI-Ryusei 2017)  
+Restart game(admin can use load command.)  
 Some bug fixed. 64 bit support.
 
 # GTP Client
-Linux, Windows
-Ruby script to connnect nngs is on gtp_client.
+Linux, Windows  
+Ruby script to connnect nngs is on gtp_client.  
 For Windows10, [CgfGoban](http://www.yss-aya.com/cgfgoban.html) is also available to connect nngs.
 
 # How to install nngs for uec cup
@@ -36,9 +36,8 @@ login admin. cgf2021/share/nngssrv/players/a/admin  is made.
 Stop nngssrv(or run "shutdown now" by admin)
 $ kill -9 xxxx
 
-# Change admin password
-
-$ cd /home/name/go/cgf2021/share/nngssrv/players/a
+Change admin password
+ cd /home/name/go/cgf2021/share/nngssrv/players/a
 $ nano admin
 Password: admin
 
@@ -56,14 +55,17 @@ unfinished game for test1 (test1 has to be logged in)
 ```
 
 # Start new game test1 as black
+'''
 ># adminmatch test1 test2 b 19 30 0
-
+'''
 test1 as white
+'''
 ># adminmatch test1 test2 w 19 30 0
-
+'''
 RubyScript does not require a black or white setting; CgfGoban does.
 
 # Restart game
+'''
 1. ruby nngsCUI.rb   (login test1)
 2. ruby nngsCUI.rb   (login hoge2)
 3. login admin       (telnet localhost 9696)
@@ -73,8 +75,9 @@ RubyScript does not require a black or white setting; CgfGoban does.
 7. ruby nngsCUI.rb   (login test1)
 8. ruby nngsCUI.rb   (login hoeg2. need to re-login both player)
 9. #> load hoge2-test1   (admin. sometimes have to wait 30 second?)
-
+'''
 # Restart any game record. (hoge2(white) vs test1(black))
+'''
 1. Copy an unfinished game from share/nngssrv/games/*/* to
   "share/nngssrv/games/t/hoge2-test1"
 
@@ -95,10 +98,10 @@ RubyScript does not require a black or white setting; CgfGoban does.
 
 4. restart game(hoge2 and tes1 must login).
   #> load hoge2-test1
-
+'''
 
 # Contributors In Historical Order
-Nobusuke Sasaki
-Nobuo Araki
-Remi Coulom
-Hiroshi Yamashita
+Nobusuke Sasaki  
+Nobuo Araki  
+Remi Coulom  
+Hiroshi Yamashita  
