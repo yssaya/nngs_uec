@@ -37,11 +37,11 @@ Stop nngssrv(or run "shutdown now" by admin)
 $ kill -9 xxxx
 
 Change admin password
- cd /home/name/go/cgf2021/share/nngssrv/players/a
+$ cd /home/name/go/cgf2021/share/nngssrv/players/a
 $ nano admin
 Password: admin
 
-Add this one line after Fullname. And restart nngs.
+Add this one line after Fullname. And restart nngs. Then you can login as admin with password "admin".
 ```
 
 # Some useful admin commands
