@@ -55,17 +55,17 @@ unfinished game for test1 (test1 has to be logged in)
 ```
 
 # Start new game test1 as black
-'''
+```
 ># adminmatch test1 test2 b 19 30 0
-'''
+```
 test1 as white
-'''
+```
 ># adminmatch test1 test2 w 19 30 0
-'''
+```
 RubyScript does not require a black or white setting; CgfGoban does.
 
 # Restart game
-'''
+```
 1. ruby nngsCUI.rb   (login test1)
 2. ruby nngsCUI.rb   (login hoge2)
 3. login admin       (telnet localhost 9696)
@@ -75,9 +75,9 @@ RubyScript does not require a black or white setting; CgfGoban does.
 7. ruby nngsCUI.rb   (login test1)
 8. ruby nngsCUI.rb   (login hoeg2. need to re-login both player)
 9. #> load hoge2-test1   (admin. sometimes have to wait 30 second?)
-'''
+```
 # Restart any game record. (hoge2(white) vs test1(black))
-'''
+```
 1. Copy an unfinished game from share/nngssrv/games/*/* to
   "share/nngssrv/games/t/hoge2-test1"
 
@@ -98,7 +98,7 @@ RubyScript does not require a black or white setting; CgfGoban does.
 
 4. restart game(hoge2 and tes1 must login).
   #> load hoge2-test1
-'''
+```
 
 # Contributors In Historical Order
 Nobusuke Sasaki  
