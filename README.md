@@ -10,7 +10,7 @@ Some bug fixed. 64 bit support.
 
 # GTP Client
 Linux, Windows  
-Ruby script to connnect nngs is on gtp_client.  
+Ruby script to connnect nngs is on [gtp_client](https://github.com/yssaya/nngs_uec/tree/master/gtp_client).  
 For Windows10, [CgfGoban](http://www.yss-aya.com/cgfgoban.html) is also available to connect nngs.
 
 # How to install nngs for uec cup
