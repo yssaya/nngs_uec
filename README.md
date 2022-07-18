@@ -62,7 +62,7 @@ test1 as white
 ```
 ># adminmatch test1 test2 w 19 30 0
 ```
-RubyScript does not require a black or white setting; CgfGoban does.
+Ruby script does not require a black or white setting; CgfGoban does.
 
 # Restart game
 ```
@@ -73,7 +73,7 @@ RubyScript does not require a black or white setting; CgfGoban does.
 5. ctrl+c on test1   (after 5th moves)
 6. ctrl+c on hoge2   (stop opponent too)
 7. ruby nngsCUI.rb   (login test1)
-8. ruby nngsCUI.rb   (login hoeg2. need to re-login both player)
+8. ruby nngsCUI.rb   (login hoge2. need to re-login both player)
 9. #> load hoge2-test1   (admin. sometimes have to wait 30 second?)
 ```
 # Restart any game record. (hoge2(white) vs test1(black))
