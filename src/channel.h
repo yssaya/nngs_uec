@@ -53,7 +53,7 @@ struct channel {
 	int *members;
 	} ;
 
-struct channel carray[MAX_CHANNELS];
+extern struct channel carray[MAX_CHANNELS];
 
 void channel_init(void);
 int on_channel(int, int);
